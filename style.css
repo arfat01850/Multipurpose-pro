@@ -1,0 +1,714 @@
+/* Base CSS */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+.fix { overflow: hidden }
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+html,
+body { height: 100% }
+
+
+.test {font-family: 'Lato', sans-serif;}
+a {
+    -moz-transition: 0.3s;
+    -o-transition: 0.3s;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+    color: #333;
+}
+a:hover { text-decoration: none }
+
+
+.top-area{
+
+    background: url(img/banar.jpg) no-repeat scroll 0 0;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+}
+
+.top-table{
+    height: 100%;
+    display: table;
+    width: 100%;
+}
+.top-table-cell{
+    display: table-cell;
+    vertical-align: middle;
+}
+
+
+.top-text{
+    width: 100%;
+    color: #ffff;
+    text-transform: uppercase;
+ 
+
+}
+
+.s-text{
+    color: #00a99d;
+    text-transform: lowercase;
+}
+
+.next-text{
+    text-transform: lowercase;
+}
+.top-text h1{
+    font-size: 40px;
+}
+.top-text h5{
+    font-size: 10px;
+}
+.bg-black{
+   display: table;
+    background-color: black;
+    padding: 4px 0px 4px 0px;
+}
+.start-text{
+    color: #00a99d;
+}
+.start-style{
+    font-size: 15px;
+    font-weight: 700;
+}
+.down-arow{
+    padding: 0px 8px 0px 8px;
+    color: #00a99d;
+    border-radius: 100%;
+    border: 3px solid #00a99d;
+    font-size: 30px;
+
+}
+.top-menu{
+    margin-top: 15px;
+    
+    border-bottom: 1px solid #dedede;
+}
+.top-menu-logo img{
+    float: left;
+    width: 50px;
+}
+.top-menu-logo p{
+    font-weight: 700;
+    text-transform: uppercase;
+    padding-top: 10px;
+    padding-left: 70px;
+}
+
+.nav{}
+.nav ul{
+
+}
+.top-menu-list ul li{
+    text-transform: uppercase;
+    font-weight: 700;
+    padding: 10px 15px;
+    float: left;
+    list-style: none;
+}
+.top-menu-list ul li:hover{
+    border-radius: 5px;
+    background-color: #00a99d;
+    
+}
+.top-menu-list ul li a{
+    text-decoration: none;
+}.top-menu-list ul li a:hover{
+    color: white;
+}
+.offer-area{
+    margin-top: 50px;
+}
+.offer h1{
+    text-transform: uppercase;
+    font-family: raleway;
+    font-size: 26px;
+    color: black;
+}
+.offer span{
+    color: #00a99d;
+}
+.offer p{
+    font-size: 16px;
+    font-weight: 300;
+    font-family: raleway;
+    color: #8a8a8a;
+    line-height: 0px;
+}
+
+
+
+.icon-text {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.icon-text i{
+    font-size: -webkit-xxx-large;
+    padding: 24px 24px 24px 24px;
+    background-color: red;
+    border-radius: 100%;
+    margin-bottom: 13px;
+    background-color: black;
+    color: #e4e4e4;
+}
+.icon-text i:hover{
+    background-color: #00a99d;
+    color:  #ffff;
+    transition: 2s;
+}
+.icon-text h5{
+    text-transform: uppercase;
+    font-size: 14px;
+    color: #606060;
+    font-weight: 900;
+    font-family: raleway;
+}
+.icon-text p{
+    font-size: 14px;
+    color: #606060;
+    font-weight: 300;
+    font-family: raleway;
+    margin-bottom: 34px;
+
+}
+
+.read-more{
+    line-height: 5px;
+    color: gray;
+    text-transform: uppercase;
+    font-weight: 700;
+    padding: 10px 15px;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+
+.read-more:hover{
+    background-color: #00a99d;
+    color: #fff;
+     border:none;
+    border-radius: 5px;
+}
+
+.sub-offer h1{
+    color: #ffff;
+}
+.amazing-area{
+    height: 519px;
+    padding-top: 50px;
+    background-color: #383838;
+}
+.amazing-icon-text i{
+    color: #00a99d; 
+    font-size: 50px;
+    float: left;
+}
+.amazing-icon-text p{
+    color: gray;
+   font-size: 14px;
+    margin-left: 81px;
+}.amazing-icon-text h5{
+    color: #ffff;
+  font-size: 14px;
+    font-weight: 900;
+    text-transform: uppercase;
+    display: table;
+    margin-left: 81px;
+}
+.amazing-icon-text{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 367px;
+}
+.amazing-icon{
+    margin-top: 50px;
+}
+
+.amazing-img img{
+    height: 100%;
+    width: 100%;
+}
+
+
+.sub-amazing-area-text i{
+    background-color: #00a99d; 
+    padding: 10px 10px 18px 10px;
+    float: left;
+    border-radius: 0px 0px 50% 50%;
+    color: #fff;
+}
+
+
+
+.sub-amazing-area-text p{
+    color: gray;
+   font-size: 14px;
+    margin-left: 70px;
+    text-align: justify;
+}
+
+.sub-amazing-area-text h5{
+   
+  font-size: 14px;
+    font-weight: 900;
+    text-transform: uppercase;
+    display: table;
+    margin-left: 70px;
+}
+.sub-amazing-area-text h6{
+   
+  font-size: 10px;
+  
+   
+    display: table;
+    margin-left: 70px;
+}
+.sub-amazing-area-text{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 367px;
+}
+.sub-amazing-area-text{
+    margin-top: 50px;
+}
+.sub-p{
+
+    font-size: 1px;
+}
+.sub-amazing-area{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    width: 100%;
+    
+    background-color: #ffffff;
+}
+
+.skil-area{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: #383838;
+}
+
+/* start skil css*/
+.flex-wrapper {
+  display: flex;
+  flex-flow: row nowrap;
+}
+
+.single-chart {
+  width: 100%;
+  justify-content: space-around ;
+}
+
+.circular-chart {
+  display: block;
+  margin: 10px auto;
+  
+}
+
+.circle-bg {
+  fill: none;
+  stroke: #eee;
+  stroke-width: 0.8px;
+}
+
+.circle {
+  fill: none;
+  
+  stroke-linecap: round;
+  animation: progress 1s ease-out forwards;
+}
+
+@keyframes progress {
+  0% {
+    stroke-dasharray: 0 100;
+  }
+}
+
+.circular-chart.orange .circle {
+  stroke: #ff9f00;
+}
+
+.circular-chart.green .circle {
+  stroke: #4CC790;
+}
+
+.circular-chart.blue .circle {
+  stroke: #3c9ee5;
+}
+
+.circular-chart.alizarin .circle {
+  stroke: #e74c3c;
+}
+
+.percentage {
+    font-weight: 800;
+    fill: #ffff;
+    font-family: sans-serif;
+    font-size: 5px;
+    text-anchor: middle;
+}
+
+.skill-text {
+    margin-top: 15px;
+    color: #b9b7b7;
+    font-size: 14px;
+    text-align: center;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.skil-area-icon{
+    margin-top: 30px;
+}
+/* finised skil css*/
+
+.work-area{
+    margin-top: 100px;
+    margin-bottom: 100px;
+
+}
+.work-text{
+   margin-bottom: 100px; 
+}
+.work-text h1{
+    color: black;
+}
+
+.works-area-img{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.img-area img{
+    height: 100%;
+    width: 100%;
+   
+}
+
+
+.img-area{
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+
+.work-icon{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+
+
+.work-items:hover .work-items-hover{
+    transform: scale(1);
+    transition: .5s;
+}
+.work-items img{
+    height: 150px;
+    width: 100%;
+}
+.work-items{
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.work-items-hover{
+    background-color: #1ca399;
+    width: 100%;
+    left: 0;
+    top: 0;
+    position: absolute;
+    height: 100%;
+    z-index: 111;
+    transform: scale(0);
+}
+.works-hover-table{
+    height: 100%;
+    width: 100%;
+    display: table;
+}
+.works-hover-table-cell{
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    color: #fff;
+}
+
+
+.work-text-icon h5{
+    font-size: 11px;
+    line-height: 2;
+}
+.work-text-icon p{
+    line-height: 0;
+    font-size: 12px;
+    margin-top: -10px;
+}
+.work-text-icon i{
+    padding: 9px 16px;
+    background-color: #fff;
+    color: gray;
+    border-radius: 15%;
+}
+
+.work-btn {
+    margin-top: 30px;
+    text-align: center;
+    
+}
+.work-btn p a{
+   text-transform: uppercase;
+    background-color: #4ae3ea;
+    text-align: center;
+  color: #ffff;
+    text-decoration: none;
+   padding: 4px 172px;
+    font-weight: 900;
+}
+
+.company-text{
+    margin-left: 14%;
+    width: 100%;
+  
+
+}
+
+.company-text li{
+    color: #a7a7a7;
+    font-size: 70px;
+    list-style: none;
+    float: left;
+    font-weight: 900;
+}
+
+.dot-text{
+    margin-top: -20px;
+    font-size: 50px;
+}
+.sub-offer{
+    margin-bottom: 50px;
+}
+.icon-text-company  {
+    color: gray;
+    float: left;
+     
+}
+.icon-text-company p{
+
+    font-size: 13px;
+    text-transform: uppercase;
+    font-weight: 800;
+    margin-left: 59px;
+   
+}
+.icon-text-company i{
+
+   font-size: 17px;
+    margin-left: 58%;
+}
+.company-area-text {
+    width: 300px;
+}
+.company-area{
+    padding: 50px;
+    background-color: #383838;
+}
+
+.cont-text p{
+    float: left;
+    font-weight: 800;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #fff;
+
+}
+
+.cont-button {
+    float: right;
+}
+
+.cont-button a{
+   background-color: #fff;
+    text-decoration: none;
+    padding: 11px 11px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.contact-now-area{
+   padding: 38px 0px;
+    background-color: #00a99d;
+    
+}
+
+.img-btn {
+    position: relative;
+    margin-top: -35px;
+    text-align: center;
+}
+
+.img-btn a{
+    text-decoration: none;
+   border-radius: 5px;
+    color: #ffff;
+    background-color: green;
+    padding: 11px 20px;
+    font-size: 11px;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+.img-btn a:hover{
+    
+    background-color: black;
+    
+}
+
+.img-btn p{
+    line-height: 4;
+
+}
+
+.img-icon i{
+   letter-spacing: 2px;
+}
+.img-icon p{
+   font-size: 16px;
+    margin-left: 30px;
+}
+
+.border-area img{
+    height: 300px;
+}
+.border-area{
+    
+    border: 1px solid gray;
+    height: 459px;
+}
+
+.team-member-area{
+    margin: 80px;
+}
+
+.client-area{
+    padding: 50px;
+    background-color: #00a99d;
+}
+
+.client-text{
+    line-height: 3;
+}
+.client-text a{
+    font-size: 12px;
+    text-transform: uppercase;
+    background-color: #ffff;
+    padding: 7px 28px;
+}
+.client-text a span{
+    font-size: 8px;
+    color: gray;
+}
+.client-text p{
+    font-size: 14px;
+    color: #fff;
+}
+
+.client-text i{
+    font-size: 23px;
+    color: #fff;
+}
+
+
+.doral-amount p{
+border-bottom: 1px solid #d2d2d2;
+    color: gray;
+    width: 147px;
+    margin: auto;
+    padding-bottom: 8px;
+}
+.doral-amount span{
+    color: black;
+    font-size: 31px;
+    font-weight: 900;
+}
+
+.contant-price{
+    margin-bottom: 23px;
+    margin-top: -10px;
+}
+.contant-price a{
+    color: #fff;
+    background-color: black;
+    text-decoration: none;
+    padding: 11px 21px;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-family: none;
+    border-radius: 7px;
+}
+.contant-price a:hover{
+   
+    background-color: #00a99d;
+    
+}
+
+.project-text{
+    border-bottom: 1px solid #d2d2d2;
+    color: gray;
+    width: 147px;
+    margin: auto;
+    padding: 10px;
+
+}
+.project-text p{
+    color: gray;
+    font-size: 12px;
+}
+
+.sign-up a{
+   color: #fff;
+    background-color: #00a99d;
+    text-decoration: none;
+    padding: 11px 21px;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-family: none;
+    border-radius: 4px;
+}
+
+.sign-up {
+  margin-top: 30px;
+}
+
+.full-box {
+    margin-top: 50px;
+    padding-bottom: 35px;
+    border: 1px solid gray;
+  
+}
+
+.price-area{
+    margin: 50px;
+}
